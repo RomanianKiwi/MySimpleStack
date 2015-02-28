@@ -1,7 +1,7 @@
 package dcll.fcui.MySimpleStack;
 
-import java.util.EmptyStackException;
 import java.util.Stack;
+import java.util.EmptyStackException;
 
 /**
  * Created by Kiwi on 28/02/2015.
@@ -16,7 +16,7 @@ public class SimpleStackImpl implements SimpleStack {
 
     @Override
     public int getSize() {
-        return 0;
+        return wrappedStack.size();
     }
 
     @Override
