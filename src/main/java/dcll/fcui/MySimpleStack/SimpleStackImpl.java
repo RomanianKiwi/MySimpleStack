@@ -11,7 +11,7 @@ public class SimpleStackImpl implements SimpleStack {
 
     @Override
     public boolean isEmpty() {
-        return false;
+        return wrappedStack.empty();
     }
 
     @Override
@@ -21,16 +21,16 @@ public class SimpleStackImpl implements SimpleStack {
 
     @Override
     public void push(Item item) {
-
+        wrappedStack.push(item);
     }
 
     @Override
     public Item peek() throws EmptyStackException {
-        return null;
+        return (Item) wrappedStack.peek();
     }
 
     @Override
     public Item pop() throws EmptyStackException {
-        return null;
+        return (Item) wrappedStack.pop();
     }
 }
