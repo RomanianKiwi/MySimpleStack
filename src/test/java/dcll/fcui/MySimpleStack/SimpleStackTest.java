@@ -7,7 +7,7 @@ import java.util.EmptyStackException;
 /**
  * Created by Kiwi on 28/02/2015.
  */
-public class SimpleSimpleStackTest {
+public class SimpleStackTest {
     @Test
     public void testCreateEmptyStack() { // Test case
 
