@@ -6,6 +6,10 @@ import java.util.EmptyStackException;
 /**
  * Created by Kiwi on 28/02/2015.
  */
+
+/*
+ * Un commentaire répondant à l'exigence #3
+ */
 public class SimpleStackImpl implements SimpleStack {
     Stack<Object> wrappedStack = new Stack<Object>();
 
